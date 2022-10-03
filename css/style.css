@@ -1,0 +1,44 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+.movieDiv{
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+.subtitle{
+    color:lightgrey;
+}
+
+.movieRate{
+    min-width: 80px;
+    margin:auto;
+    margin-right: 0px;
